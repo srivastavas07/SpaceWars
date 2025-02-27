@@ -187,8 +187,8 @@ function draw() {
     ctx.fillRect(WINDOW_WIDTH / 2 - 5, 0, 10, WINDOW_HEIGHT)
 
     // Draw spaceships with proper rotation
-    drawRotatedImage(yellowSpaceshipImg, gameState.yellow.x, gameState.yellow.y, SPACESHIP_WIDTH, SPACESHIP_HEIGHT, 90)
-    drawRotatedImage(redSpaceshipImg, gameState.red.x, gameState.red.y, SPACESHIP_WIDTH, SPACESHIP_HEIGHT, 270)
+    drawRotatedImage(yellowSpaceshipImg, gameState.yellow.x, gameState.yellow.y, SPACESHIP_WIDTH, SPACESHIP_HEIGHT, 270)
+    drawRotatedImage(redSpaceshipImg, gameState.red.x, gameState.red.y, SPACESHIP_WIDTH, SPACESHIP_HEIGHT, 90)
 
     // Draw bullets for both ships
     ctx.fillStyle = "yellow"
