@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceship Battle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="health-bars">
+            <div id="yellowHealth">Health: 10</div>
+            <div id="redHealth">Health: 10</div>
+        </div>
+        <div id="winner" class="winner-text"></div>
+        <button id="restartButton"
+            style="visibility:hidden; position: absolute; top: 62%; transform: translate(-50%,-50%); left: 50%; padding: 12px 16px;font-size:20px; background-color: rgb(255, 63, 63); color: white; border: none; border-radius: 4px; cursor: pointer;;">Restart
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
